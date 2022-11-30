@@ -5,30 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+  <link rel="stylesheet" href="cssfile.css">
 </head>
 <body>
-    <h1>Github</h1>
+    <h1 style="background-color: black; color: white; text-align: center;">Github</h1>
+    <ul>
+        <li>GitHub makes tools that use Git.</li>
+        <li>GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.</li>
+        <li>In this tutorial, we will focus on using Git with GitHub.</li>
+    </ul>
+    
     <h2>git init</h2>
-    <p>initialize an existing directory as a Git repository</p>
-    <img src="resources/git add.jpeg" alt="">
+    <p>Initialize an existing directory as a Git repository</p>
+    <img src="resources/init.png" alt="">
+    <h2>git commit</h2>
+    <p>To record or snapshot the file permanently in the version history we use the commit command.</p>
+    <img src="resources/commit.png" alt="">
+    <h2>git add</h2>
+    <p>The files can be added to the staging area using git add command.</p>
+    <img src="resources/add.png" alt="">
     <h2>git clone [url]</h2>
-    <p>retrieve an entire repository from a hosted location via URL</p>
+    <p>Retrieve an entire repository from a hosted location via URL</p>
+    <img src="resources/clone.png" alt="">
     <h2>git status</h2>
-    <p>show modified files in working directory, staged for your next commit</p>
-    <img src="resources/git status.jpeg" alt="">
+    <p>Show modified files in working directory, staged for your next commit</p>
+    <img src="resources/status.png" alt="">
     <h2>git add  </h2>
-    <p>add a file as it looks now to your next commit (stage)</p>
-    <h2>git reset [file]</h2>
-    <p>unstage a file while retaining the changes in working directory</p>
-    <h2>git diff</h2>
-    <p>diff of what is changed but not staged</p>
+    <p>Add a file as it looks now to your next commit (stage)</p>
+    <img src="resources/add.png" alt="">
+    <h2>git diff --staged</h2>
+    <p>Compare staging area with last commit</p>
+    <img src="resources/git_diff.png" alt="">
     <h2>git commit -m “[descriptive message]”</h2>
-    <p>commit your staged content as a new commit snapshot</p>
+    <p>Commit your staged content as a new commit snapshot</p>
     <h2>git branch</h2>
-    <p>list your branches. a * will appear next to the currently active branch</p>
+    <img src="resources/branch.png" alt="">
+    <p>List your branches. a * will appear next to the currently active branch</p>
     <h2>git checkout</h2>
-    <p>switch to another branch and check it out into your working directory</p>
+    <p>Switch to another branch and check it out into your working directory</p>
+    <img src="resources/checkout.png" alt="">
     <h2>git merge [branch]</h2>
-    <p>merge the specified branch’s history into the current one</p>
+    <p>Merge the specified branch’s history into the current one</p>
+    <img src="resources/merge_branch.png" alt="">
+    <h2>git rm --filename</h2>
+    <p>Remove the file from repository</p>
+    <img src="resources/remove.png" alt="">
+    <h2>git show</h2>
+    <p>This command shows the metadata and content changes of the specified commit</p>
+    <img src="resources/show.png" alt="">
+    <h2>git remote add origin [url]</h2>
+    <p>To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.</p>
+    <img src="resources/remote.png" alt="">
+    <h2>git log</h2>
+    <p>To list the version history for the current branch we use the command git log.</p>
+    <img src="resources/log.png" alt="">
+    <h2>git push</h2>
+    <p>The git push command is used to upload local repository content to a remote repository. </p>
+    <img src="resources/push.png" alt="">
 </body>
 </html>
